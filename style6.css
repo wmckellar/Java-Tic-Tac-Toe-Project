@@ -1,0 +1,110 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#board {
+    padding: 3em top;
+}
+
+#topleft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#topmiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#topright {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#middleleft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#middlemiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border: 2px solid black;
+}
+
+#middleright {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#bottomleft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#bottommiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#bottomright {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.row {
+    width: 310px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 1px 5px rgb(4, 139, 49);
+    font-size: 4em;
+    font-family: sans-serif;
+}
+
+div.row > div:hover {
+    cursor: pointer;
+    background-color: rgb(205, 212, 245);
+}
